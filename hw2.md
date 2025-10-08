@@ -16,9 +16,9 @@ graph TD
     G --> H[8. 程式測試<br/>20天]
     G --> I[9. 網頁內部問答測試<br/>25天]
     I --> J[10. 使用者訓練<br/>20天]
-    H --> J
-    I --> K[11. 使用者測試<br/>25天]
-    J --> K
+    H --> K[11. 系統測試<br/>20天]
+    I --> L[12. 使用者測試<br/>25天]
+    F --> L
     
     class A,B,C,D,E,F,I,K critical
     classDef critical fill:#ff6666,stroke:#cc0000,stroke-width:3px,color:#ffffff;
