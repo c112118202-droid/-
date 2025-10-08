@@ -20,7 +20,7 @@ graph TD
     J --> L[11. 使用者測試<br/>25天]
     K --> L
     
-    class A,B,C,D,E,F,I,K critical
+    class A,B,C,D,E,F,I,K,L critical
     classDef critical fill:#ff6666,stroke:#cc0000,stroke-width:3px,color:#ffffff;
     classDef normal fill:#f0f0f0,stroke:#333,stroke-width:2px,color:#000000;
 ```
