@@ -33,7 +33,7 @@ gantt
     axisFormat %m/%d
     
     section 起始階段
-    1. 尋找專題老師和組員 (3天)     :crit, m1, 2025-01-01, 3d
+    1. 尋找專題老師和組員 (3天)     :crit, m1, 2025-10-01, 3d
     
     section 準備階段
     2. 擬訂計畫 (7天)     :crit, m2, after m1, 7d
