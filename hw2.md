@@ -40,7 +40,7 @@ gantt
     4. 蒐集資輛 (7天)    :crit, m4, after m3, 7d
 
     section 開發階段
-    5. 編寫程式碼 (70天)    :crit, m5, after m2, 70d
+    5. 編寫程式碼 (70天)    :crit, m5, after m3, 70d
     6. 嘗試加入AI機器人 (10天)    :crit, m6, after m4, 10d
     
     section 測試文件階段
