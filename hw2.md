@@ -45,7 +45,7 @@ gantt
     
     section 測試文件階段
     7. 程式測試 (30天)    :crit, m7, after m5, 30d
-    8. 撰寫使用手冊 (25天) :m8, after m5, 25d
+    8. 網頁內部問答測試 (25天) :m8, after m5, 25d
     9. 轉換檔案 (20天)     :m9, after m5, 20d
     
     section 完成階段
