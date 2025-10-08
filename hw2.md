@@ -36,7 +36,7 @@ gantt
     
     section 準備階段
     2. 擬訂計畫 (7天)     :crit, m2, after m1, 7d
-    3. 任務分配 (1天)    :crit, m3, after m1, 1d
+    3. 任務分配 (1天)    :crit, m3, after m2, 1d
     4. 蒐集資輛 (7天)    :crit, m4, after m1, 7d
 
     section 開發階段
