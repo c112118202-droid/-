@@ -46,10 +46,10 @@ gantt
     
     section 測試文件階段
     7. 程式測試 (15天)    :crit, m7, after m5, 15d
-    8. 網頁內部問答測試 (10天) :crit, m7, after m5, 10d
+    8. 網頁內部問答測試 (10天) :crit, m8, after m5, 10d
         
     section 完成階段
-    9. 使用者訓練 (10天)    :crit, m8, after m8, 10d
-    10. 連結測試 (3天)  :m9, after m7 m8, 3d
-    11. 使用者測試 (5天)  :crit, m10, after m9 m10, 5d
+    9. 使用者訓練 (10天)    :crit, m9, after m8, 10d
+    10. 連結測試 (3天)  :m10, after m7 m8, 3d
+    11. 使用者測試 (5天)  :crit, m11, after m9 m10, 5d
 ```
