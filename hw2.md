@@ -33,23 +33,23 @@ gantt
     axisFormat %m/%d
     
     section 起始階段
-    1. 尋找專題老師和組員 (3天)     :crit, m1, 2025-10-01, 3d
+    1. 尋找專題老師和組員 (2天)     :crit, m1, 2025-10-01, 2d
     
     section 準備階段
-    2. 擬訂計畫 (7天)     :crit, m2, after m1, 7d
+    2. 擬訂計畫 (3天)     :crit, m2, after m1, 3d
     3. 任務分配 (1天)    :crit, m3, after m2, 1d
     4. 蒐集資料 (7天)    :crit, m4, after m3, 7d
 
     section 開發階段
-    5. 編寫程式碼 (70天)    :crit, m5, after m3, 70d
-    6. 嘗試加入AI機器人 (30天)    :crit, m6, after m4, 30d
+    5. 編寫程式碼 (50天)    :crit, m5, after m3, 50d
+    6. 嘗試加入AI機器人 (20天)    :crit, m6, after m4, 20d
     
     section 測試文件階段
-    7. 程式測試 (30天)    :crit, m7, after m5, 30d
-    8. 網頁內部問答測試 (25天) :m8, after m5, 25d
+    7. 程式測試 (15天)    :crit, m7, after m5, 15d
+    8. 網頁內部問答測試 (10天) :m8, after m5, 10d
         
     section 完成階段
-    9. 使用者訓練 (25天)    :crit, m9, after m8, 25d
-    10. 連結測試 (20天)  :m10, after m7 m8, 20d
-    11. 使用者測試 (25天)  :crit, m11, after m9 m10, 25d
+    9. 使用者訓練 (10天)    :crit, m9, after m8, 10d
+    10. 連結測試 (3天)  :m10, after m7 m8, 3d
+    11. 使用者測試 (5天)  :crit, m11, after m9 m10, 5d
 ```
