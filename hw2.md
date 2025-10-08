@@ -41,10 +41,10 @@ gantt
 
     section 開發階段
     5. 編寫程式碼 (70天)    :crit, m5, after m2, 70d
-    6. 嘗試加入AI機器人 (10天)    :crit, m6, after m2, 10d
+    6. 嘗試加入AI機器人 (10天)    :crit, m6, after m3, 10d
     
     section 測試文件階段
-    7. 程式測試 (30天)    :crit, m7, after m4, 30d
+    7. 程式測試 (30天)    :crit, m7, after m5, 30d
     8. 撰寫使用手冊 (25天) :m8, after m5, 25d
     9. 轉換檔案 (20天)     :m9, after m5, 20d
     
