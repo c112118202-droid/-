@@ -45,7 +45,7 @@ gantt
     6. 嘗試加入AI機器人 (20天)    :crit, m6, after m4, 20d
     
     section 測試文件階段
-    7. 程式測試 (15天)    :m7, after m5, 15d
+    7. 程式測試 (15天)    :crit,m7, after m5, 15d
     8. 網頁內部問答測試 (10天)  :m8, after m5, 10d
         
     section 完成階段
