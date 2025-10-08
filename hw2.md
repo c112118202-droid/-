@@ -49,7 +49,7 @@ gantt
     9. 轉換檔案 (20天)     :m9, after m5, 20d
     
     section 完成階段
-    10. 系統測試 (25天)    :crit, m10, after m7, 25d
+    10. 系統測試 (25天)    :crit, m10, after m8, 25d
     11. 使用者訓練 (20天)  :m11, after m7 m8, 20d
     12. 使用者測試 (25天)  :crit, m12, after m9 m10, 25d
 ```
